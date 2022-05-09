@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-app {
+  text-align: center;
+  background-color: #150c15;
+  color: #fff;
+  min-height: 100vh;
+  padding-top: 80px;
+}
+
+.cta-button {
+  padding: 15px;
+  border: none;
+  border-radius: 12px;
+  min-width: 250px;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.connect-wallet-button {
+  background: rgb(32, 129, 226);
+}
+
+.mint-nft-button {
+  background: orange;
+}
+
+.install-metamask-button {
+  display: inline-block;
+  background: #e11903;
+  text-decoration: none;
+}
+
+.wrong-network {
+  background-color: #FFF33F;
+  color: #000;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 20px;
+  position: absolute;
+  width: 100%;
+  top: 0;
+}
+
+.mint-btn-area {
+  height: 100px;
+}
+
+.message-wrongnet {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.price {
+  font-size: 1.625rem;
+  margin-bottom: 40px;
+}
+
+.price span {
+  font-weight: bold;
+}
+
+.image {
+  margin-bottom: 50px;
+}
+
+.mint-status-area {
+  display: flex;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+}
+
+.text {
+  font-size: 1.125rem;
+  color: #fff;
+  text-align: center;
+}
